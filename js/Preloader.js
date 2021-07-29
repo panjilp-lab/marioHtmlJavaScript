@@ -40,7 +40,7 @@ function Preloader() {
       22: 'images/saved-btn.png',
       23: 'images/slider-left.png',
       24: 'images/slider-right.png',
-      25: 'images/tbl-mulai.png'
+      25: 'images/start-btn.png'
     };
 
     that.loadImages(imageSources);

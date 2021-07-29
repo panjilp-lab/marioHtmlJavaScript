@@ -211,8 +211,9 @@ function MarioGame() {
   };
 
   this.showInstructions = function() {
-    gameUI.writeText('Controls: Arrow keys for direction, shift to run, ctrl for bullets', 30, 30);
-    gameUI.writeText('Tip: Jumping while running makes you jump higher', 30, 60);
+    gameUI.writeText('Kontrol: Tekan arah panah untuk berjalan, Shift untuk lari, ctrl untuk menembak', 30, 30);
+
+    gameUI.writeText('Tips: Lompat sambil berlari akan menjadikannya lebih tinggi', 30, 60);
   };
 
   this.renderMap = function() {

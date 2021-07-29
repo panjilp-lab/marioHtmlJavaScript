@@ -3,6 +3,18 @@
   src: url('../fonts/SuperMario256.ttf');
 }
 
+.body-bg-img {
+  background-image: url('../images/bg.jpg');
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  /* referense : w3school */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .p-t-sm {
   padding-top: 20px;
 }
@@ -72,6 +84,7 @@
 .level-num {
   width: 150px;
   float: left;
+  color: black;
 }
 
 .total-score {
